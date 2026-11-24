@@ -1,0 +1,6 @@
+{
+  "name": "Atelier Silicon",
+  "description": "Curated neighborhood electronics and workstation boutique with real-time pickup reservations, hardware tech consultation, and an owner-editable catalog studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

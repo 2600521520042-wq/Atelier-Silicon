@@ -1,0 +1,396 @@
+{
+  "ownerPin": "2026",
+  "settings": {
+    "shopName": "Atelier Silicon",
+    "neighborhood": "SoHo Hardware District",
+    "address": "142 Mercer Street, Suite 1B",
+    "hours": "Tue–Sun · 10:00 AM – 7:30 PM",
+    "whatsappNumber": "+14155550192",
+    "heroKicker": "Bench-tested workstations & studio components",
+    "heroHeadline": "Precision computing built for your desk, ready today.",
+    "heroSubheadline": "Every laptop, GPU, and calibrated display in our showroom is bench-verified by senior technicians and held for same-day local pickup.",
+    "heroCtaLabel": "Browse Catalog",
+    "heroImageUrl": "/src/assets/images/hero_workstation_atelier_1795518953644.jpg",
+    "consultationTitle": "Need a custom workstation spec or compatibility check?",
+    "consultationDescription": "Message our bench engineers directly to confirm physical shelf inventory, thermal clearances, or request a tailored multi-GPU build quote.",
+    "promoBannerText": "Same-day counter pickup in 45 minutes · Free local courier on orders over $1,200",
+    "showPromoBanner": true
+  },
+  "products": [
+    {
+      "id": "prod-1",
+      "sku": "AS-WS-16M",
+      "brand": "PROART",
+      "name": "StudioBook 16 Pro OLED",
+      "category": "Workstations",
+      "price": 2699,
+      "stock": 5,
+      "pickupAvailable": true,
+      "featured": true,
+      "specSnippet": "Ultra 9 · 64GB DDR5 · RTX 4070",
+      "warranty": "2-Year Boutique Bench Warranty",
+      "description": "CNC-anodized aluminum mobile workstation calibrated to Delta-E < 1 out of the box. Ideal for 3D look-dev, CAD assemblies, and multi-stream 4K color grading.",
+      "imageUrl": "/src/assets/images/product_pro_laptop_1795518953665.jpg",
+      "specs": [
+        {
+          "label": "Processor",
+          "value": "Intel Core Ultra 9 185H (16-Core)"
+        },
+        {
+          "label": "Display",
+          "value": "16.0\" 3.2K 120Hz Pantone OLED"
+        },
+        {
+          "label": "Memory",
+          "value": "64GB LPDDR5X-7467"
+        },
+        {
+          "label": "Storage",
+          "value": "2TB PCIe 4.0 NVMe SSD"
+        },
+        {
+          "label": "Graphics",
+          "value": "NVIDIA RTX 4070 8GB Studio"
+        },
+        {
+          "label": "Chassis Weight",
+          "value": "1.85 kg Unibody Aluminum"
+        }
+      ],
+      "variants": [
+        {
+          "id": "v-1a",
+          "label": "32GB RAM / 1TB NVMe",
+          "priceDelta": -300,
+          "stock": 3
+        },
+        {
+          "id": "v-1b",
+          "label": "64GB RAM / 2TB NVMe",
+          "priceDelta": 0,
+          "stock": 5
+        },
+        {
+          "id": "v-1c",
+          "label": "64GB RAM / 4TB RAID-0",
+          "priceDelta": 420,
+          "stock": 2
+        }
+      ]
+    },
+    {
+      "id": "prod-2",
+      "sku": "AS-GPU-5090",
+      "brand": "NVIDIA FOUNDERS",
+      "name": "GeForce RTX 5080 Titanium",
+      "category": "Graphics & Core",
+      "price": 1199,
+      "stock": 3,
+      "pickupAvailable": true,
+      "featured": true,
+      "specSnippet": "16GB GDDR7 · 360W · Dual-Axial",
+      "warranty": "3-Year Serial Replacement",
+      "description": "Flow-through brushed titanium thermal shroud engineered for quiet workstation acoustic profiles and high-throughput local LLM inference or real-time raytracing.",
+      "imageUrl": "/src/assets/images/product_rtx_gpu_1795518953668.jpg",
+      "specs": [
+        {
+          "label": "VRAM",
+          "value": "16GB GDDR7 256-bit"
+        },
+        {
+          "label": "Boost Clock",
+          "value": "2,617 MHz"
+        },
+        {
+          "label": "Interface",
+          "value": "PCIe 5.0 x16"
+        },
+        {
+          "label": "Power Draw",
+          "value": "360W (16-pin 12V-2x6)"
+        },
+        {
+          "label": "Outputs",
+          "value": "3x DP 2.1b · 1x HDMI 2.1b"
+        },
+        {
+          "label": "Slot Width",
+          "value": "2.5-Slot (304 mm Length)"
+        }
+      ],
+      "variants": [
+        {
+          "id": "v-2a",
+          "label": "Founders Titanium Edition",
+          "priceDelta": 0,
+          "stock": 3
+        },
+        {
+          "id": "v-2b",
+          "label": "OC + Braided 12V-2x6 Kit",
+          "priceDelta": 90,
+          "stock": 2
+        }
+      ]
+    },
+    {
+      "id": "prod-3",
+      "sku": "AS-DSP-32Q",
+      "brand": "ULTRASHARP",
+      "name": "Reference 32 4K QD-OLED",
+      "category": "Displays",
+      "price": 1349,
+      "stock": 4,
+      "pickupAvailable": true,
+      "featured": true,
+      "specSnippet": "32\" 4K · 240Hz · 99% DCI-P3",
+      "warranty": "3-Year Zero Bright Pixel Guarantee",
+      "description": "Factory-verified color grading and engineering monitor with single-cable 140W USB-C power delivery, hardware LUT calibration, and machined aluminum stand.",
+      "imageUrl": "/src/assets/images/product_oled_monitor_1795518953786.jpg",
+      "specs": [
+        {
+          "label": "Panel",
+          "value": "31.5\" 3840x2160 QD-OLED"
+        },
+        {
+          "label": "Refresh Rate",
+          "value": "240Hz Adaptive Sync"
+        },
+        {
+          "label": "Color Space",
+          "value": "99.2% DCI-P3 · Delta-E < 0.8"
+        },
+        {
+          "label": "Upstream PD",
+          "value": "140W USB-C + KVM Switch"
+        },
+        {
+          "label": "Brightness",
+          "value": "1000 nits HDR Peak"
+        },
+        {
+          "label": "Mount",
+          "value": "VESA 100x100 + Aluminum Stand"
+        }
+      ],
+      "variants": [
+        {
+          "id": "v-3a",
+          "label": "Standard Aluminum Stand",
+          "priceDelta": 0,
+          "stock": 4
+        },
+        {
+          "id": "v-3b",
+          "label": "With Articulated Studio Arm",
+          "priceDelta": 180,
+          "stock": 2
+        }
+      ]
+    },
+    {
+      "id": "prod-4",
+      "sku": "AS-KEY-75C",
+      "brand": "MODE LABS",
+      "name": "Sonnet 75 CNC Mechanical",
+      "category": "Peripherals",
+      "price": 389,
+      "stock": 8,
+      "pickupAvailable": true,
+      "featured": false,
+      "specSnippet": "6063 Aluminum · QMK/VIA · Gasket",
+      "warranty": "2-Year Switch & PCB Support",
+      "description": "Milled from solid 6063 bead-blasted aluminum with isolated lattice block mounting, dye-sublimated charcoal PBT keycaps, and hand-lubed linear switches.",
+      "imageUrl": "/src/assets/images/product_mech_keyboard_1795518954838.jpg",
+      "specs": [
+        {
+          "label": "Layout",
+          "value": "75% Compact (82 Keys)"
+        },
+        {
+          "label": "Chassis",
+          "value": "CNC 6063 Anodized Silver"
+        },
+        {
+          "label": "Switches",
+          "value": "Lubed Obscura Linear 50g"
+        },
+        {
+          "label": "Firmware",
+          "value": "QMK / VIA Programmable"
+        },
+        {
+          "label": "Connectivity",
+          "value": "USB-C Braided + 2.4GHz"
+        },
+        {
+          "label": "Weight",
+          "value": "1.92 kg Built"
+        }
+      ],
+      "variants": [
+        {
+          "id": "v-4a",
+          "label": "Linear Switches (Quiet)",
+          "priceDelta": 0,
+          "stock": 8
+        },
+        {
+          "id": "v-4b",
+          "label": "Tactile Brown Switches",
+          "priceDelta": 15,
+          "stock": 5
+        }
+      ]
+    },
+    {
+      "id": "prod-5",
+      "sku": "AS-HUB-TB5",
+      "brand": "CALDIGIT",
+      "name": "Element TB5 Studio Dock & Audio",
+      "category": "Peripherals",
+      "price": 459,
+      "stock": 2,
+      "pickupAvailable": true,
+      "featured": false,
+      "specSnippet": "120Gbps TB5 · 10GbE · 140W Host",
+      "warranty": "2-Year Local Counter Swap",
+      "description": "Compact anodized desktop dock delivering dual 6K display output, 10Gb Ethernet, UHS-II SD 4.0 reader, and reference-grade balanced headphone output.",
+      "imageUrl": "/src/assets/images/product_tb_dock_audio_1795518959335.jpg",
+      "specs": [
+        {
+          "label": "Bandwidth",
+          "value": "120 Gbps Thunderbolt 5"
+        },
+        {
+          "label": "Host Charging",
+          "value": "140W USB-PD EPR"
+        },
+        {
+          "label": "Networking",
+          "value": "10 Gigabit Ethernet RJ45"
+        },
+        {
+          "label": "Ports",
+          "value": "4x TB5 · 3x USB-A 10G · SD 4.0"
+        },
+        {
+          "label": "Audio DAC",
+          "value": "32-bit/384kHz Balanced 4.4mm"
+        },
+        {
+          "label": "Enclosure",
+          "value": "Passive Finned Aluminum"
+        }
+      ],
+      "variants": [
+        {
+          "id": "v-5a",
+          "label": "TB5 Studio Dock Only",
+          "priceDelta": 0,
+          "stock": 2
+        },
+        {
+          "id": "v-5b",
+          "label": "Dock + Reference Headphones",
+          "priceDelta": 290,
+          "stock": 2
+        }
+      ]
+    },
+    {
+      "id": "prod-6",
+      "sku": "AS-WS-M4X",
+      "brand": "APPLE STUDIO",
+      "name": "MacBook Pro 16 M4 Max",
+      "category": "Workstations",
+      "price": 3499,
+      "stock": 2,
+      "pickupAvailable": true,
+      "featured": true,
+      "specSnippet": "16-Core · 48GB Unified · 1TB",
+      "warranty": "1-Year AppleCare+ Eligible",
+      "description": "Space Black flagship mobile workstation with 546GB/s unified memory bandwidth for on-device foundation models, Xcode builds, and ProRes RAW timelines.",
+      "imageUrl": "/src/assets/images/product_pro_laptop_1795518953665.jpg",
+      "specs": [
+        {
+          "label": "Chip",
+          "value": "Apple M4 Max (16-Core CPU / 40-Core GPU)"
+        },
+        {
+          "label": "Memory",
+          "value": "48GB Unified (546GB/s)"
+        },
+        {
+          "label": "Storage",
+          "value": "1TB High-Speed SSD"
+        },
+        {
+          "label": "Display",
+          "value": "16.2\" Liquid Retina XDR 120Hz"
+        },
+        {
+          "label": "Ports",
+          "value": "3x Thunderbolt 5 · HDMI · SDXC"
+        },
+        {
+          "label": "Battery",
+          "value": "Up to 21 Hours"
+        }
+      ],
+      "variants": [
+        {
+          "id": "v-6a",
+          "label": "48GB Unified / 1TB SSD",
+          "priceDelta": 0,
+          "stock": 2
+        },
+        {
+          "id": "v-6b",
+          "label": "64GB Unified / 2TB SSD",
+          "priceDelta": 600,
+          "stock": 1
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1041",
+      "orderNumber": "AS-1041",
+      "customerName": "Elena Vance",
+      "customerPhone": "+1 (415) 555-0148",
+      "fulfillment": "pickup",
+      "pickupWindowOrAddress": "Today · 4:30 PM – 5:30 PM",
+      "notes": "Please keep box sealed if possible.",
+      "items": [
+        {
+          "productId": "prod-4",
+          "variantId": "v-4a",
+          "variantLabel": "Linear Switches (Quiet)",
+          "brand": "MODE LABS",
+          "name": "Sonnet 75 CNC Mechanical",
+          "sku": "AS-KEY-75C",
+          "unitPrice": 389,
+          "quantity": 1,
+          "imageUrl": "/src/assets/images/product_mech_keyboard_1795518954838.jpg"
+        }
+      ],
+      "subtotal": 389,
+      "createdAt": "2026-11-24T08:19:38.402Z",
+      "status": "Ready at Counter"
+    }
+  ],
+  "inquiries": [
+    {
+      "id": "inq-201",
+      "customerName": "Marcus Chen",
+      "customerPhone": "+1 (415) 555-0183",
+      "topic": "Custom Build Quote",
+      "productName": "GeForce RTX 5080 Titanium",
+      "message": "Checking if the 5080 Titanium fits inside a Fractal Terra with an SF850 PSU.",
+      "createdAt": "2026-11-24T06:19:38.404Z",
+      "status": "Open"
+    }
+  ]
+}
